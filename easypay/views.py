@@ -1,6 +1,6 @@
 from django.http import HttpResponse
 from django.shortcuts import render
-from .models import payments
+from .models import Products
 import requests
 import time
 mc_url="https://api.thingspeak.com/update?api_key=8R3CO2HRXMICK3VK&field1="
