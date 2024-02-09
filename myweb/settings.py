@@ -49,6 +49,15 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+DATABASES = {
+    'default':{
+        'ENGINE':'django.db.backends.postgresql',
+        'NAME': 'test1',
+        'USER': 'moni',
+        'PASSWORD': 'Mertelya2',
+    }
+}
+
 ROOT_URLCONF = 'myweb.urls'
 
 TEMPLATES = [
